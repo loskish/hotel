@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:24:42</date>
+  <millis>1332192282891</millis>
+  <sequence>26</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>13</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.model.player.Players$1.compare(Players.java:206)
+	at it.losko.hotel.model.player.Players$1.compare(Players.java:1)
+	at java.util.Arrays.mergeSort(Arrays.java:1270)
+	at java.util.Arrays.sort(Arrays.java:1210)
+	at java.util.Collections.sort(Collections.java:159)
+	at it.losko.hotel.model.player.Players.rank(Players.java:197)
+	at it.losko.hotel.view.tui.listeners.GameOverActionListener.actionNotified(GameOverActionListener.java:20)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Canceler.run(ActionObserver.java:149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:24:52</date>
+  <millis>1332192292722</millis>
+  <sequence>31</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>11</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+</log>

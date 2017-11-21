@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-05-17T23:08:20</date>
+  <millis>1305666500891</millis>
+  <sequence>1</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.ApplicationLoadActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:21</date>
+  <millis>1305666501402</millis>
+  <sequence>3</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.InitialMenuActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:26</date>
+  <millis>1305666506946</millis>
+  <sequence>5</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.CollectPlayersActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:36</date>
+  <millis>1305666516207</millis>
+  <sequence>7</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.JoinActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:36</date>
+  <millis>1305666516703</millis>
+  <sequence>9</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.JoinActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:37</date>
+  <millis>1305666517204</millis>
+  <sequence>11</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.JoinActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:37</date>
+  <millis>1305666517705</millis>
+  <sequence>13</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.JoinActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:38</date>
+  <millis>1305666518210</millis>
+  <sequence>15</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.GameStartAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:38</date>
+  <millis>1305666518211</millis>
+  <sequence>16</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:38</date>
+  <millis>1305666518721</millis>
+  <sequence>18</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:39</date>
+  <millis>1305666519224</millis>
+  <sequence>20</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:39</date>
+  <millis>1305666519225</millis>
+  <sequence>21</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:39</date>
+  <millis>1305666519734</millis>
+  <sequence>23</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.PlayerActionSelectionActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:45</date>
+  <millis>1305666525282</millis>
+  <sequence>25</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.PurchaseAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:45</date>
+  <millis>1305666525282</millis>
+  <sequence>26</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:45</date>
+  <millis>1305666525786</millis>
+  <sequence>28</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:45</date>
+  <millis>1305666525787</millis>
+  <sequence>29</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:49</date>
+  <millis>1305666529287</millis>
+  <sequence>31</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:49</date>
+  <millis>1305666529789</millis>
+  <sequence>33</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:49</date>
+  <millis>1305666529790</millis>
+  <sequence>34</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:50</date>
+  <millis>1305666530815</millis>
+  <sequence>37</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.ExpropriateAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:50</date>
+  <millis>1305666530815</millis>
+  <sequence>38</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:51</date>
+  <millis>1305666531314</millis>
+  <sequence>40</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:51</date>
+  <millis>1305666531315</millis>
+  <sequence>41</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:54</date>
+  <millis>1305666534814</millis>
+  <sequence>43</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:55</date>
+  <millis>1305666535318</millis>
+  <sequence>45</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:55</date>
+  <millis>1305666535319</millis>
+  <sequence>46</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:55</date>
+  <millis>1305666535818</millis>
+  <sequence>48</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:55</date>
+  <millis>1305666535818</millis>
+  <sequence>49</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:59</date>
+  <millis>1305666539318</millis>
+  <sequence>51</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:59</date>
+  <millis>1305666539821</millis>
+  <sequence>53</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:08:59</date>
+  <millis>1305666539822</millis>
+  <sequence>54</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:00</date>
+  <millis>1305666540321</millis>
+  <sequence>56</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:00</date>
+  <millis>1305666540322</millis>
+  <sequence>57</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:03</date>
+  <millis>1305666543821</millis>
+  <sequence>59</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:04</date>
+  <millis>1305666544327</millis>
+  <sequence>61</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:04</date>
+  <millis>1305666544328</millis>
+  <sequence>62</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:04</date>
+  <millis>1305666544828</millis>
+  <sequence>64</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.EarnInterestsAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:04</date>
+  <millis>1305666544829</millis>
+  <sequence>65</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:05</date>
+  <millis>1305666545328</millis>
+  <sequence>67</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.PlayerActionSelectionActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:08</date>
+  <millis>1305666548816</millis>
+  <sequence>69</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.PurchaseAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:08</date>
+  <millis>1305666548817</millis>
+  <sequence>70</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:09</date>
+  <millis>1305666549316</millis>
+  <sequence>72</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:09</date>
+  <millis>1305666549317</millis>
+  <sequence>73</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:12</date>
+  <millis>1305666552816</millis>
+  <sequence>75</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:13</date>
+  <millis>1305666553320</millis>
+  <sequence>77</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:13</date>
+  <millis>1305666553322</millis>
+  <sequence>78</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:14</date>
+  <millis>1305666554327</millis>
+  <sequence>81</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.PurchaseAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:14</date>
+  <millis>1305666554327</millis>
+  <sequence>82</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:14</date>
+  <millis>1305666554826</millis>
+  <sequence>84</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:14</date>
+  <millis>1305666554827</millis>
+  <sequence>85</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:18</date>
+  <millis>1305666558326</millis>
+  <sequence>87</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:18</date>
+  <millis>1305666558830</millis>
+  <sequence>89</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:18</date>
+  <millis>1305666558830</millis>
+  <sequence>90</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:19</date>
+  <millis>1305666559330</millis>
+  <sequence>92</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.EarnInterestsAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:19</date>
+  <millis>1305666559330</millis>
+  <sequence>93</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:20</date>
+  <millis>1305666560334</millis>
+  <sequence>96</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.ExpropriateAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:20</date>
+  <millis>1305666560334</millis>
+  <sequence>97</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:20</date>
+  <millis>1305666560834</millis>
+  <sequence>99</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:20</date>
+  <millis>1305666560834</millis>
+  <sequence>100</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:21</date>
+  <millis>1305666561845</millis>
+  <sequence>103</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.BuildAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:21</date>
+  <millis>1305666561846</millis>
+  <sequence>104</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:22</date>
+  <millis>1305666562347</millis>
+  <sequence>106</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.BuildPermissionGrantedAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:22</date>
+  <millis>1305666562347</millis>
+  <sequence>107</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:22</date>
+  <millis>1305666562847</millis>
+  <sequence>109</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:22</date>
+  <millis>1305666562847</millis>
+  <sequence>110</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:26</date>
+  <millis>1305666566347</millis>
+  <sequence>112</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:26</date>
+  <millis>1305666566851</millis>
+  <sequence>114</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:26</date>
+  <millis>1305666566852</millis>
+  <sequence>115</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:27</date>
+  <millis>1305666567351</millis>
+  <sequence>117</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:27</date>
+  <millis>1305666567351</millis>
+  <sequence>118</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:30</date>
+  <millis>1305666570851</millis>
+  <sequence>120</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:31</date>
+  <millis>1305666571355</millis>
+  <sequence>122</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:31</date>
+  <millis>1305666571355</millis>
+  <sequence>123</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:31</date>
+  <millis>1305666571854</millis>
+  <sequence>125</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.PlayerActionSelectionActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:36</date>
+  <millis>1305666576488</millis>
+  <sequence>127</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.PurchaseAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:36</date>
+  <millis>1305666576489</millis>
+  <sequence>128</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:36</date>
+  <millis>1305666576987</millis>
+  <sequence>130</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.TurnEndAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:36</date>
+  <millis>1305666576987</millis>
+  <sequence>131</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:40</date>
+  <millis>1305666580488</millis>
+  <sequence>133</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.TurnStartActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:41</date>
+  <millis>1305666581795</millis>
+  <sequence>135</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.RollDiceAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:41</date>
+  <millis>1305666581796</millis>
+  <sequence>136</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:42</date>
+  <millis>1305666582297</millis>
+  <sequence>139</sequence>
+  <logger>listener</logger>
+  <level>FINE</level>
+  <class>it.losko.hotel.view.ActionObserver</class>
+  <method>update</method>
+  <thread>11</thread>
+  <message>No listener found for action it.losko.hotel.model.action.EarnInterestsAction</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:42</date>
+  <millis>1305666582297</millis>
+  <sequence>140</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.GUIActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2011-05-17T23:09:42</date>
+  <millis>1305666582301</millis>
+  <sequence>141</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.gui.listeners.ApplicationUnloadActionListener</class>
+  <method>actionNotified</method>
+  <thread>14</thread>
+  <message>ENTRY</message>
+</record>
+</log>

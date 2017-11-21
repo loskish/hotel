@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:20:06</date>
+  <millis>1332192006625</millis>
+  <sequence>0</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ApplicationLoadAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Application loaded</message>
+</record>
+<record>
+  <date>2012-03-19T22:20:07</date>
+  <millis>1332192007143</millis>
+  <sequence>2</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.InitialMenuAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Initial input is requested</message>
+</record>
+<record>
+  <date>2012-03-19T22:20:10</date>
+  <millis>1332192010305</millis>
+  <sequence>4</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ApplicationUnloadAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Application unloaded</message>
+</record>
+</log>

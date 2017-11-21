@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE conf SYSTEM "conf.dtd">
+<conf>
+	<artificialIntelligence>
+		<param id="numberOfLapForecasting">5</param>
+	</artificialIntelligence>
+	<delay> <!-- Meant in milliseconds -->
+		<param id="actionDelay">500</param>
+		<param id="turnDelay">3000</param>
+		<param id="inputTimeout">60000</param>
+	</delay>
+	<log>
+		<param id="logFolder">log</param>
+		<param id="actionLogLevel">FINEST</param>
+		<param id="listenerLogLevel">FINEST</param>
+		<param id="exceptionLogLevel">FINEST</param>
+	</log>
+	<userInterface>
+		<param id="userInterfaceClassName">it.losko.hotel.view.tui.TUI</param>
+	</userInterface>
+</conf>

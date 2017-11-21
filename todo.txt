@@ -1,0 +1,37 @@
+﻿-FIXED Skipping the build of an entry results in lock of the game
+-FIXED windowClosed event prevents the program to shutdown properly without system.exit
+-FIXED It seems that the game let you choose between BuildEntranceAction even if you don't have money anymore
+-FIXED ExceptionAction hangs: deadlock between it.losko.hotel.ui.ActionObserver.internalUpdate(Action) and it.losko.hotel.actions.InputAction.postDoAction()
+-TODO Split the config file in two between model and view. Each module must use its own config
+-TODO There should be an explicit action notifing the building being built
+-TODO If you try to build an item and run out of money, you'll be prompted to sell something. What if you sell the previous element of the same hotel you're currently building?
+-TODO When winning the game (all players were defeated) the following exeception occurred:
+	12-ott-2010 23.45.31 it.losko.hotel.exceptions.ExceptionHandler handle
+	GRAVE: java.lang.InterruptedException
+		at java.lang.Object.wait(Native Method)
+		at java.lang.Thread.join(Unknown Source)
+		at java.lang.Thread.join(Unknown Source)
+		at it.losko.hotel.game.Game.end(Game.java:228)
+		at it.losko.hotel.players.Players.remove(Players.java:87)
+		at it.losko.hotel.actions.LeaveAction.doAction(LeaveAction.java:30)
+		at it.losko.hotel.actions.Action.executeAction(Action.java:61)
+		at it.losko.hotel.actions.PayForStayAction.postDoAction(PayForStayAction.java:76)
+		at it.losko.hotel.actions.Action.internalPostDoAction(Action.java:108)
+		at it.losko.hotel.actions.Action.executeAction(Action.java:62)
+		at it.losko.hotel.players.Player.executeMandatoryAndNonDelayableActions(Player.java:252)
+		at it.losko.hotel.players.Player.play(Player.java:220)
+		at it.losko.hotel.players.Players.play(Players.java:158)
+		at it.losko.hotel.game.Game.play(Game.java:414)
+		at it.losko.hotel.game.Game$GameSession.run(Game.java:552)
+		at java.lang.Thread.run(Unknown Source)
+-TODO Using the TUI, when the game terminates, it is necessary to establish a priority between action executions
+Choose one of the following actions:
+	1: Start game
+	2: Load game
+	3: Quit
+	Enter: Skip 
+Game over! Players ranking:
+#01: Comp3, with a total patrimony of 109375.0
+#02: Comp1, with a total patrimony of 0.0
+#03: losko, with a total patrimony of 0.0
+#04: Comp2, with a total patrimony of 0.0

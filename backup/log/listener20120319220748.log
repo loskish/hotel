@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:07:49</date>
+  <millis>1332191269007</millis>
+  <sequence>1</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ApplicationLoadActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:07:49</date>
+  <millis>1332191269537</millis>
+  <sequence>3</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.InitialMenuActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>

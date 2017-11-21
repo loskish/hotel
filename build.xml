@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="hotel" default="dist">
+	<target name="clean">
+		 <delete dir="dist"/>
+	</target>
+	
+	<target name="mkdistdir">
+		<mkdir dir="dist"/>
+	</target>
+	
+	<target name="dist" depends="clean, mkdistdir">
+		<ant dir="model" />
+		<ant dir="view" />
+		
+		<copy todir="dist">
+		    <fileset dir="model/dist" />
+			<fileset dir="view/dist" />
+		</copy>
+		
+		<copy todir="dist/conf">
+		    <fileset dir="conf" />
+		</copy>
+	</target>
+</project>

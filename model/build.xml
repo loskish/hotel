@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="model" default="dist">
+	<target name="clean">
+		 <delete dir="dist"/>
+	</target>
+	
+	<target name="mkdistdir">
+		<mkdir dir="dist"/>
+	</target>
+	
+	<target name="dist" depends="clean, mkdistdir">
+		<jar destfile="dist/model.jar" basedir="bin" />
+	</target>
+</project>

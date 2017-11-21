@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:26:39</date>
+  <millis>1332192399865</millis>
+  <sequence>0</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ApplicationLoadAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Application loaded</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:40</date>
+  <millis>1332192400385</millis>
+  <sequence>2</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.InitialMenuAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Initial input is requested</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:42</date>
+  <millis>1332192402910</millis>
+  <sequence>4</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.CollectPlayersAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Players have been collected</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:46</date>
+  <millis>1332192406230</millis>
+  <sequence>6</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.JoinAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>lorenzo joins the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:46</date>
+  <millis>1332192406731</millis>
+  <sequence>9</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.JoinAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Computer1 joins the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:47</date>
+  <millis>1332192407232</millis>
+  <sequence>12</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.GameStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Start of the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:47</date>
+  <millis>1332192407744</millis>
+  <sequence>15</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:48</date>
+  <millis>1332192408249</millis>
+  <sequence>17</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo rolls dice and makes 3</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:48</date>
+  <millis>1332192408761</millis>
+  <sequence>19</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:53</date>
+  <millis>1332192413962</millis>
+  <sequence>21</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.WrongInputAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Input from lorenzo is not clear. Please choose again</message>
+</record>
+<record>
+  <date>2012-03-19T22:26:54</date>
+  <millis>1332192414464</millis>
+  <sequence>24</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:18</date>
+  <millis>1332192438566</millis>
+  <sequence>26</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.WrongInputAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Input from lorenzo is not clear. Please choose again</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:19</date>
+  <millis>1332192439067</millis>
+  <sequence>29</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:33</date>
+  <millis>1332192453080</millis>
+  <sequence>31</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PurchaseAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo buys Boomerang</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:33</date>
+  <millis>1332192453585</millis>
+  <sequence>33</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:37</date>
+  <millis>1332192457087</millis>
+  <sequence>36</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:37</date>
+  <millis>1332192457588</millis>
+  <sequence>38</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 rolls dice and makes 2</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:38</date>
+  <millis>1332192458089</millis>
+  <sequence>40</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:41</date>
+  <millis>1332192461591</millis>
+  <sequence>43</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:42</date>
+  <millis>1332192462093</millis>
+  <sequence>45</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo rolls dice and makes 3</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:42</date>
+  <millis>1332192462600</millis>
+  <sequence>47</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:51</date>
+  <millis>1332192471967</millis>
+  <sequence>49</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.WrongInputAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Input from lorenzo is not clear. Please choose again</message>
+</record>
+<record>
+  <date>2012-03-19T22:27:52</date>
+  <millis>1332192472468</millis>
+  <sequence>52</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:11</date>
+  <millis>1332192491020</millis>
+  <sequence>54</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.BuildAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo attempts to build Boomerang's Main Building, regular price: 1800.0</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:11</date>
+  <millis>1332192491523</millis>
+  <sequence>57</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.BuildPermissionGrantedForFreeAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is allowed to build Boomerang's Main Building for free</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:12</date>
+  <millis>1332192492024</millis>
+  <sequence>60</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:15</date>
+  <millis>1332192495526</millis>
+  <sequence>63</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:16</date>
+  <millis>1332192496027</millis>
+  <sequence>65</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 rolls dice and makes 2</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:16</date>
+  <millis>1332192496529</millis>
+  <sequence>67</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:20</date>
+  <millis>1332192500030</millis>
+  <sequence>70</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:20</date>
+  <millis>1332192500532</millis>
+  <sequence>72</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo rolls dice and makes 2</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:21</date>
+  <millis>1332192501039</millis>
+  <sequence>74</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.EarnInterestsAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo earns 2000.0 from Bank</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:21</date>
+  <millis>1332192501540</millis>
+  <sequence>76</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:23</date>
+  <millis>1332192503904</millis>
+  <sequence>78</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.BuildAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo attempts to build Boomerang's Facilities, regular price: 2250.0</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:24</date>
+  <millis>1332192504409</millis>
+  <sequence>81</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.BuildPermissionGrantedAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is allowed to build Boomerang's Facilities</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:24</date>
+  <millis>1332192504910</millis>
+  <sequence>83</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:28</date>
+  <millis>1332192508412</millis>
+  <sequence>86</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:28</date>
+  <millis>1332192508914</millis>
+  <sequence>88</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 rolls dice and makes 1</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:29</date>
+  <millis>1332192509415</millis>
+  <sequence>90</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:29</date>
+  <millis>1332192509933</millis>
+  <sequence>91</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PurchaseAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 buys Fujihama</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:30</date>
+  <millis>1332192510434</millis>
+  <sequence>93</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Computer1 terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:33</date>
+  <millis>1332192513937</millis>
+  <sequence>96</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:34</date>
+  <millis>1332192514438</millis>
+  <sequence>98</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo rolls dice and makes 6</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:34</date>
+  <millis>1332192514940</millis>
+  <sequence>100</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:41</date>
+  <millis>1332192521268</millis>
+  <sequence>102</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.GameOverAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Game over</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:41</date>
+  <millis>1332192521773</millis>
+  <sequence>104</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.InitialMenuAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Initial input is requested</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:50</date>
+  <millis>1332192530745</millis>
+  <sequence>106</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.CollectPlayersAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Players have been collected</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:55</date>
+  <millis>1332192535291</millis>
+  <sequence>108</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.JoinAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>lorenzo joins the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:55</date>
+  <millis>1332192535792</millis>
+  <sequence>111</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.JoinAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Computer1 joins the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:56</date>
+  <millis>1332192536293</millis>
+  <sequence>114</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.GameStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Start of the game</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:56</date>
+  <millis>1332192536794</millis>
+  <sequence>117</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Computer1 begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:57</date>
+  <millis>1332192537296</millis>
+  <sequence>119</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Computer1 rolls dice and makes 3</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:57</date>
+  <millis>1332192537798</millis>
+  <sequence>121</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Computer1 is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:58</date>
+  <millis>1332192538302</millis>
+  <sequence>122</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PurchaseAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Computer1 buys Boomerang</message>
+</record>
+<record>
+  <date>2012-03-19T22:28:58</date>
+  <millis>1332192538803</millis>
+  <sequence>124</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnEndAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Computer1 terminates the turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:29:02</date>
+  <millis>1332192542305</millis>
+  <sequence>127</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.TurnStartAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>lorenzo begins the new turn</message>
+</record>
+<record>
+  <date>2012-03-19T22:29:02</date>
+  <millis>1332192542806</millis>
+  <sequence>129</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.RollDiceAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>lorenzo rolls dice and makes 5</message>
+</record>
+<record>
+  <date>2012-03-19T22:29:03</date>
+  <millis>1332192543308</millis>
+  <sequence>131</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.PlayerActionSelectionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>lorenzo is requested for input</message>
+</record>
+<record>
+  <date>2012-03-19T22:29:20</date>
+  <millis>1332192560434</millis>
+  <sequence>133</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.GameOverAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Game over</message>
+</record>
+<record>
+  <date>2012-03-19T22:29:20</date>
+  <millis>1332192560436</millis>
+  <sequence>134</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ApplicationUnloadAction</class>
+  <method>internalPostDoAction</method>
+  <thread>15</thread>
+  <message>Application unloaded</message>
+</record>
+</log>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:15:19</date>
+  <millis>1332191719423</millis>
+  <sequence>0</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ApplicationLoadAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Application loaded</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:19</date>
+  <millis>1332191719943</millis>
+  <sequence>2</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.InitialMenuAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Initial input is requested</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:25</date>
+  <millis>1332191725895</millis>
+  <sequence>4</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.SelectFileNameAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>null has been selected</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:30</date>
+  <millis>1332191730594</millis>
+  <sequence>6</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.InitialMenuAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Initial input is requested</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:33</date>
+  <millis>1332191733996</millis>
+  <sequence>8</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.SelectFileNameAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>null has been selected</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:36</date>
+  <millis>1332191736555</millis>
+  <sequence>11</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>10</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:54</date>
+  <millis>1332191754757</millis>
+  <sequence>14</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>11</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:57</date>
+  <millis>1332191757340</millis>
+  <sequence>17</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>12</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:59</date>
+  <millis>1332191759603</millis>
+  <sequence>20</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>13</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:01</date>
+  <millis>1332191761418</millis>
+  <sequence>23</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>14</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:03</date>
+  <millis>1332191763717</millis>
+  <sequence>26</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>15</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:04</date>
+  <millis>1332191764927</millis>
+  <sequence>29</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>16</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:05</date>
+  <millis>1332191765615</millis>
+  <sequence>32</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>17</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:06</date>
+  <millis>1332191766287</millis>
+  <sequence>35</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>18</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767168</millis>
+  <sequence>38</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>19</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767907</millis>
+  <sequence>41</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>20</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:08</date>
+  <millis>1332191768479</millis>
+  <sequence>44</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>21</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769051</millis>
+  <sequence>47</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>22</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769621</millis>
+  <sequence>50</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>23</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770211</millis>
+  <sequence>53</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>24</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770789</millis>
+  <sequence>56</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>25</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:11</date>
+  <millis>1332191771394</millis>
+  <sequence>59</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>26</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772017</millis>
+  <sequence>62</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>27</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772641</millis>
+  <sequence>65</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>28</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:13</date>
+  <millis>1332191773228</millis>
+  <sequence>68</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>29</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:13</date>
+  <millis>1332191773831</millis>
+  <sequence>71</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>30</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:14</date>
+  <millis>1332191774507</millis>
+  <sequence>74</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>31</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:15</date>
+  <millis>1332191775269</millis>
+  <sequence>77</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>32</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:16</date>
+  <millis>1332191776101</millis>
+  <sequence>80</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>33</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:16</date>
+  <millis>1332191776914</millis>
+  <sequence>83</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>34</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:17</date>
+  <millis>1332191777673</millis>
+  <sequence>86</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>35</thread>
+  <message>Exception occurred</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:18</date>
+  <millis>1332191778384</millis>
+  <sequence>89</sequence>
+  <logger>action</logger>
+  <level>FINEST</level>
+  <class>it.losko.hotel.model.action.ExceptionAction</class>
+  <method>internalPostDoAction</method>
+  <thread>36</thread>
+  <message>Exception occurred</message>
+</record>
+</log>

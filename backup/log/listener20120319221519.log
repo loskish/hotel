@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:15:19</date>
+  <millis>1332191719453</millis>
+  <sequence>1</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ApplicationLoadActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:19</date>
+  <millis>1332191719946</millis>
+  <sequence>3</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.InitialMenuActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:25</date>
+  <millis>1332191725917</millis>
+  <sequence>5</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.SelectFileNameActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:30</date>
+  <millis>1332191730595</millis>
+  <sequence>7</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.InitialMenuActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:33</date>
+  <millis>1332191733997</millis>
+  <sequence>9</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.SelectFileNameActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:36</date>
+  <millis>1332191736571</millis>
+  <sequence>12</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>11</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:54</date>
+  <millis>1332191754764</millis>
+  <sequence>15</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>12</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:57</date>
+  <millis>1332191757343</millis>
+  <sequence>18</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>13</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:59</date>
+  <millis>1332191759607</millis>
+  <sequence>21</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>14</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:01</date>
+  <millis>1332191761420</millis>
+  <sequence>24</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>15</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:03</date>
+  <millis>1332191763721</millis>
+  <sequence>27</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>16</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:04</date>
+  <millis>1332191764936</millis>
+  <sequence>30</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>17</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:05</date>
+  <millis>1332191765616</millis>
+  <sequence>33</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>18</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:06</date>
+  <millis>1332191766292</millis>
+  <sequence>36</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>19</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767170</millis>
+  <sequence>39</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>20</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767908</millis>
+  <sequence>42</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>21</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:08</date>
+  <millis>1332191768481</millis>
+  <sequence>45</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>22</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769059</millis>
+  <sequence>48</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>23</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769629</millis>
+  <sequence>51</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>24</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770213</millis>
+  <sequence>54</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>25</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770803</millis>
+  <sequence>57</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>26</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:11</date>
+  <millis>1332191771395</millis>
+  <sequence>60</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>27</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772018</millis>
+  <sequence>63</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>28</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772650</millis>
+  <sequence>66</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>29</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:13</date>
+  <millis>1332191773230</millis>
+  <sequence>69</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>30</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:13</date>
+  <millis>1332191773833</millis>
+  <sequence>72</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>31</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:14</date>
+  <millis>1332191774517</millis>
+  <sequence>75</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>32</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:15</date>
+  <millis>1332191775270</millis>
+  <sequence>78</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>33</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:16</date>
+  <millis>1332191776103</millis>
+  <sequence>81</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>34</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:16</date>
+  <millis>1332191776918</millis>
+  <sequence>84</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>35</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:17</date>
+  <millis>1332191777674</millis>
+  <sequence>87</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>36</thread>
+  <message>ENTRY</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:18</date>
+  <millis>1332191778385</millis>
+  <sequence>90</sequence>
+  <logger>listener</logger>
+  <level>FINER</level>
+  <class>it.losko.hotel.view.tui.listeners.ExceptionActionListener</class>
+  <method>actionNotified</method>
+  <thread>37</thread>
+  <message>ENTRY</message>
+</record>
+</log>

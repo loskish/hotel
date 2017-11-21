@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="view" default="dist" basedir=".">
+	<target name="clean">
+		 <delete dir="dist"/>
+	</target>
+	
+	<target name="mkdistdir">
+		<mkdir dir="dist"/>
+	</target>
+	
+	<target name="dist" depends="clean, mkdistdir">
+		<jar destfile="dist/${ant.project.name}.jar" basedir="bin">
+			<manifest>
+                <attribute name="Main-Class" value="it.losko.hotel.view.Main"/>
+				<attribute name="Class-Path" value=". model.jar"/>
+            </manifest>
+		</jar>
+		<copy todir="dist/${ant.project.name}/img">
+		    <fileset dir="img" />
+		</copy>
+	</target>
+</project>

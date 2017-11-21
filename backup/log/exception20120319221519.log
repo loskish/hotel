@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2012-03-19T22:15:36</date>
+  <millis>1332191736017</millis>
+  <sequence>10</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>10</thread>
+  <message>java.io.FileNotFoundException: save/2.hsg (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:120)
+	at it.losko.hotel.model.game.Game.load(Game.java:342)
+	at it.losko.hotel.model.game.Game.load(Game.java:322)
+	at it.losko.hotel.model.game.Game.start(Game.java:167)
+	at it.losko.hotel.view.Main.main(Main.java:20)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:54</date>
+  <millis>1332191754254</millis>
+  <sequence>13</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>11</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:56</date>
+  <millis>1332191756836</millis>
+  <sequence>16</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>12</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:15:59</date>
+  <millis>1332191759100</millis>
+  <sequence>19</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>13</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:00</date>
+  <millis>1332191760913</millis>
+  <sequence>22</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>14</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:03</date>
+  <millis>1332191763214</millis>
+  <sequence>25</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>15</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:04</date>
+  <millis>1332191764422</millis>
+  <sequence>28</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:05</date>
+  <millis>1332191765113</millis>
+  <sequence>31</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>17</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:05</date>
+  <millis>1332191765786</millis>
+  <sequence>34</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>18</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:06</date>
+  <millis>1332191766666</millis>
+  <sequence>37</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>19</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767406</millis>
+  <sequence>40</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>20</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:07</date>
+  <millis>1332191767977</millis>
+  <sequence>43</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>21</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:08</date>
+  <millis>1332191768549</millis>
+  <sequence>46</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>22</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769119</millis>
+  <sequence>49</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>23</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:09</date>
+  <millis>1332191769706</millis>
+  <sequence>52</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>24</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770288</millis>
+  <sequence>55</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>25</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:10</date>
+  <millis>1332191770892</millis>
+  <sequence>58</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>26</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:11</date>
+  <millis>1332191771516</millis>
+  <sequence>61</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>27</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772139</millis>
+  <sequence>64</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>28</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:12</date>
+  <millis>1332191772727</millis>
+  <sequence>67</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>29</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:13</date>
+  <millis>1332191773330</millis>
+  <sequence>70</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>30</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:14</date>
+  <millis>1332191774006</millis>
+  <sequence>73</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>31</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:14</date>
+  <millis>1332191774766</millis>
+  <sequence>76</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>32</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:15</date>
+  <millis>1332191775598</millis>
+  <sequence>79</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>33</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:16</date>
+  <millis>1332191776412</millis>
+  <sequence>82</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>34</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:17</date>
+  <millis>1332191777172</millis>
+  <sequence>85</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>35</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:17</date>
+  <millis>1332191777882</millis>
+  <sequence>88</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>36</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+<record>
+  <date>2012-03-19T22:16:19</date>
+  <millis>1332191779813</millis>
+  <sequence>91</sequence>
+  <logger>exception</logger>
+  <level>SEVERE</level>
+  <class>it.losko.hotel.model.exception.ExceptionHandler</class>
+  <method>handle</method>
+  <thread>37</thread>
+  <message>java.lang.NullPointerException
+	at it.losko.hotel.view.tui.TUI.handleException(TUI.java:92)
+	at it.losko.hotel.view.tui.listeners.ExceptionActionListener.actionNotified(ExceptionActionListener.java:12)
+	at it.losko.hotel.view.tui.listeners.TUIActionListener.actionNotified(TUIActionListener.java:12)
+	at it.losko.hotel.view.ActionObserver.internalUpdate(ActionObserver.java:86)
+	at it.losko.hotel.view.ActionObserver.access$0(ActionObserver.java:63)
+	at it.losko.hotel.view.ActionObserver$Notifier.run(ActionObserver.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</message>
+</record>
+</log>
