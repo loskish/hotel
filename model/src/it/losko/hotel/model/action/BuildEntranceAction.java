@@ -52,7 +52,6 @@ public class BuildEntranceAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " builds an entrance to " + getHotel().getName() + " at square " + Game.getSingleton().getBoard().getSquares().indexOf(square) + " for " + getHotel().getEntrancePrice();
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Build an entrance to " + getHotel().getName() + " at square " + Game.getSingleton().getBoard().getSquares().indexOf(square) + " for " + getHotel().getEntrancePrice();
 	}

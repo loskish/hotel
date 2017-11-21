@@ -24,7 +24,6 @@ public class GameStartAction extends Action implements Choosable {
 		return "Start of the game";
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Start game";
 	}

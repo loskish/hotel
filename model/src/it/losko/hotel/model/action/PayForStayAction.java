@@ -86,7 +86,6 @@ public class PayForStayAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " stays at " + getHotel().getName() + " for " + getNumberOfNights() + " nights (" + getHotel().getPriceForStay(getNumberOfNights()) + ")";
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Stay at " + getHotel().getName();
 	}

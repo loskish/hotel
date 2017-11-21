@@ -82,7 +82,6 @@ public class GUIMainWindow extends javax.swing.JFrame {
 			button.setPreferredSize(new Dimension(0, 60));
 			button.setName(String.valueOf(++i));
 			button.addActionListener(new ActionListener() {
-				@Override
 				public void actionPerformed(ActionEvent e) {
 					actionButtonActionPerformed(e);
 				}
@@ -415,7 +414,6 @@ public class GUIMainWindow extends javax.swing.JFrame {
     	Game.getSingleton().pause();
     	if (JOptionPane.showConfirmDialog(this, "Are you sure you want to terminate the current game and create a new one?", "Confirm new", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
     		new Thread(new Runnable() {
-    			@Override
     			public void run() {
     				try {
     					Game.getSingleton().create();

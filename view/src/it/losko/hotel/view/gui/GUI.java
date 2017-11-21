@@ -37,7 +37,6 @@ public class GUI extends UserInterface {
 	
 	public void display() {
 		SwingUtilities.invokeLater(new Runnable() {
-			@Override
 			public void run() {
 				mainWindow.pack();
 				mainWindow.setVisible(true);

@@ -33,7 +33,6 @@ public class ExpropriateAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " expropriates " + getHotel().getName();
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Expropriate " + getHotel().getName() + " for " + getHotel().getExpropriationPrice();
 	}

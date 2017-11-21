@@ -116,7 +116,6 @@ public class Square implements OffersActions, Serializable {
 		return adjacentHotelsSuitable;
 	}
 	
-	@Override
 	public Set<PlayerAction> getAvailableActions(final Player doingPlayer) throws PlayerNotInTheGameException, NoMoreBuildingsToBuildException {
 		final Set<PlayerAction> availableActions = new LinkedHashSet<PlayerAction>();
 		

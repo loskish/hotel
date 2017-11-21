@@ -62,23 +62,18 @@ public class Bank extends Property implements MoneyOwnerInterface {
 		return amount;
 	}
 
-	@Override
 	public double getAvailableMoney() {
 		return availableMoney;
 	}
 
-	@Override
 	public void giveMoneyToPlayer(final Player player, final double amount) throws NotEnoughMoneyAvailableException {
 		player.receiveMoney(giveMoney(amount));
 	}
 
-
-	@Override
 	public void receiveMoney(final double amount) {
 		setAvailableMoney(getAvailableMoney() + amount);
 	}
 
-	@Override
 	public void setAvailableMoney(final double availableMoney) {
 		this.availableMoney = availableMoney;
 	}

@@ -71,7 +71,6 @@ public class RollDiceAction extends PlayerAction implements Choosable {
 		return getDoingPlayer().getName() + " rolls dice" + (getResult() != -1 ? " and makes " + getResult() : "");
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Roll dice";
 	}

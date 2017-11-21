@@ -24,7 +24,6 @@ public class InputObserver implements Observer {
     	listenersStack = new Stack<ResponseReceiver>();
     }
     
-    @Override
 	public void update(final Observable obj, final Object arg) {
     	final String input = (String) arg;
     	

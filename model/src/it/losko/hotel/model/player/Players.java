@@ -195,7 +195,6 @@ public class Players implements Serializable {
 		final List<Player> players = new ArrayList<Player>(getAll());
 		
 		Collections.sort(players, new Comparator<Player>() {
-			@Override
 			public int compare(final Player player1, final Player player2) {
 				final Double patrimony1 = player1.getPatrimony();
 				final Double patrimony2 = player2.getPatrimony();

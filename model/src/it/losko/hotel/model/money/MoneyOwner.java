@@ -54,22 +54,18 @@ public class MoneyOwner implements MoneyOwnerInterface, Serializable {
 		return availableMoney >= amount;
 	}
 	
-	@Override
 	public void setAvailableMoney(final double availableMoney) {
 		this.availableMoney = availableMoney;
 	}
 
-	@Override
 	public double getAvailableMoney() {
 		return availableMoney;
 	}
 	
-	@Override
 	public void giveMoneyToPlayer(final Player player, final double amount) throws NotEnoughMoneyAvailableException {
 		player.receiveMoney(giveMoney(amount));
 	}
 	
-	@Override
 	public void receiveMoney(final double amount) {
 		setAvailableMoney(getAvailableMoney() + amount);
 	}

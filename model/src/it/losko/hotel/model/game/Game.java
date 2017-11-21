@@ -529,7 +529,6 @@ public class Game implements Serializable, GameConstants {
 	 * @author losko
 	 */
 	private class GameSession implements Runnable {
-		@Override
 		public void run() {
 			try {
 				Thread.currentThread().setName("GameThread");

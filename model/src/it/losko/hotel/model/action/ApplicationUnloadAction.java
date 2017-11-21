@@ -24,7 +24,6 @@ public class ApplicationUnloadAction extends Action implements Choosable {
 		return "Application unloaded";
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Quit";
 	}

@@ -47,7 +47,6 @@ public class BuildForFreeAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " builds " + getHotel().getName() + "'s " + building.getName() + " for free";
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Build " + getHotel().getName() + "'s " + building.getName() + " for free";
 	}

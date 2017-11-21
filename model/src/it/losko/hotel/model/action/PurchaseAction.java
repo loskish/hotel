@@ -20,17 +20,14 @@ public class PurchaseAction extends HotelAction implements Choosable {
 		super(doingPlayer, hotel);
 	}
 
-	@Override
 	public void doAction() throws HotelAlreadyBoughtException, NotEnoughMoneyAvailableException, CannotExpropriateUnboughtHotelException {
 		getHotel().buy(getDoingPlayer());
 	}
 
-	@Override
 	public String getNotifiableDescription() {
 		return getDoingPlayer().getName() + " buys " + getHotel().getName();
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Buy " + getHotel().getName() + " for " + getHotel().getLandPrice();
 	}

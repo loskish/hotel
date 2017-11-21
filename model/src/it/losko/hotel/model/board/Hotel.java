@@ -96,12 +96,10 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 		return getLastBuiltBuilding().getPriceForStay(days);
 	}
 	
-	@Override
 	public Integer build() throws NoMoreBuildingsToBuildException, BuildUnboughtHotelException, NotEnoughMoneyAvailableException, BuildPermissionNotGrantedException {
 		return build(false);
 	}
 	
-	@Override
 	public Integer build(final boolean free) throws NoMoreBuildingsToBuildException, BuildUnboughtHotelException, NotEnoughMoneyAvailableException, BuildPermissionNotGrantedException {
 		if(!isBought()) {
 			throw new BuildUnboughtHotelException(getName() + " can't be built since it is not owned by anyone");
@@ -139,7 +137,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 		return randomInt != 3 ? randomInt : null;
 	}
 
-	@Override
 	public void buy(final Player owner) throws HotelAlreadyBoughtException, NotEnoughMoneyAvailableException, CannotExpropriateUnboughtHotelException {
 		if(isBought()) {
 			throw new HotelAlreadyBoughtException(getName() + " is already owned by " + owner.getName());
@@ -159,7 +156,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 		setOwner(owner);
 	}
 
-	@Override
 	public void expropriate(final Player doingPlayer) throws CannotExpropriateUnboughtHotelException, NotEnoughMoneyAvailableException, ExpropriateBuiltHotelException, HotelAlreadyBoughtException {
 		if(!isBought()) {
 			throw new CannotExpropriateUnboughtHotelException(getName() + " can't be expropriated since it's not owned by anyone"); 
@@ -244,7 +240,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 		return availableBuildings.get(builtBuildings - 1);
 	}
 	
-	@Override
 	public boolean isBuildable(final Player doingPlayer, final boolean forFree) {
 		return !isCompletelyBuilt()
 			&& isBought()
@@ -254,7 +249,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 			&& (forFree || doingPlayer.isMoneyAvailable(availableBuildings.get(builtBuildings).getConstructionPrice()));
 	}
 	
-	@Override
 	public boolean isBuyable(final Player doingPlayer) {
 		return !isBought()
 			&& doingPlayer.isMoneyAvailable(getLandPrice())
@@ -263,7 +257,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 			&& !doingPlayer.hasRefusedAnymoreActionsOnTheSquareHeIs();
 	}
 	
-	@Override
 	public boolean isExpropriable(final Player doingPlayer) {
 		return isBought()
 			&& !isAtLeastOneBuildingBuilt()
@@ -271,7 +264,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 			&& doingPlayer.isMoneyAvailable(getExpropriationPrice());
 	}
 	
-	@Override
 	public boolean isSellable() {
 		return isBought();
 	}
@@ -286,7 +278,6 @@ public class Hotel extends Property implements Buildable, Buyable, Expropriable,
 		}
 	}
 	
-	@Override
 	public void sell() throws NotEnoughMoneyAvailableException, CannotExpropriateUnboughtHotelException, HotelAlreadyBoughtException, SellUnboughtHotelException {
 		if(!isBought()) {
 			throw new SellUnboughtHotelException(getName() + " can't be sold since it is not owned by anyone");

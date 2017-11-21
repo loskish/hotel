@@ -42,7 +42,6 @@ public class SellAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " sells " + getHotel().getName() + "'s " + choice + " for " + price;
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Sell " + getHotel().getName() + "'s " + choice + " for " + price;
 	}

@@ -42,7 +42,6 @@ public class ActionObserver implements Observer {
 	 * @param   o     the observable object
      * @param   arg   the argument passed to the <code>notifyObservers</code> method invoked on the Observed object
 	 */
-	@Override
 	public void update(final Observable o, final Object arg) {
 		if(o instanceof Action) {
 			
@@ -127,7 +126,6 @@ public class ActionObserver implements Observer {
 			this.action = action;
 		}
 		
-		@Override
 		public void run() {
 			internalUpdate(action);
 		}
@@ -144,7 +142,6 @@ public class ActionObserver implements Observer {
 			this.action = action;
 		}
 		
-		@Override
 		public void run() {
 			internalUpdate(action);
 			

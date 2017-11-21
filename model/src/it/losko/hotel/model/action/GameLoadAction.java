@@ -22,7 +22,6 @@ public class GameLoadAction extends Action implements Choosable {
 		return "Game loaded";
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Load game";
 	}

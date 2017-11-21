@@ -92,7 +92,6 @@ public class BuildAction extends HotelAction implements Choosable {
 		return getDoingPlayer().getName() + " attempts to build " + getHotel().getName() + "'s " + building.getName() + ", regular price: " + building.getConstructionPrice();
 	}
 
-	@Override
 	public String getChoiceDescription() {
 		return "Build " + getHotel().getName() + "'s " + building.getName() + ", regular price: " + building.getConstructionPrice();
 	}

@@ -19,7 +19,6 @@ public class Input extends Observable implements Runnable {
 		this.tui = tui;
 	}
 	
-	@Override
 	public void run() {
         try {
             while(!Game.getSingleton().isQuitting()) {
