@@ -37,3 +37,4 @@ Game over! Players ranking:
 #04: Comp2, with a total patrimony of 0.0
 -TODO: Give more importance to such kind of things!
 -TODO: Get enough time to live!
+-TODO: Learn to merge with eGIT
