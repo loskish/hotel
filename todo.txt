@@ -38,3 +38,4 @@ Game over! Players ranking:
 -TODO: Give more importance to such kind of things!
 -TODO: Get enough time to live!
 -TODO: Learn to merge with eGIT
+-TODO: Learn to merge with GIT
