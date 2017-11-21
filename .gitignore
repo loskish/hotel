@@ -3,3 +3,11 @@
 /.project
 /.svn/
 /target/
+/model/.project
+/model/.settings
+/model/bin
+/model/.classpath
+/view/.project
+/view/.settings
+/view/bin
+/view/.classpath
