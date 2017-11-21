@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="hotel" default="dist">
+	<!-- TODO: replace me with Maven -->
 	<target name="clean">
 		 <delete dir="dist"/>
 	</target>
