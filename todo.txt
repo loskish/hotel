@@ -35,9 +35,4 @@ Game over! Players ranking:
 #02: Comp1, with a total patrimony of 0.0
 #03: losko, with a total patrimony of 0.0
 #04: Comp2, with a total patrimony of 0.0
--TODO: Give more importance to such kind of things!
--TODO: Get enough time to live!
--TODO: Learn to merge with eGIT
--FIXED: Learn to merge with TortoiseGIT
--TODO: Learn to merge with GIT
 -FIXED: Use Maven
