@@ -18,4 +18,8 @@
     </plugins>
   </build>
   <packaging>pom</packaging>
+  <modules>
+  	<module>model</module>
+  	<module>view</module>
+  </modules>
 </project>

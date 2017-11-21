@@ -29,4 +29,11 @@
   	<artifactId>hotel</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
+  <dependencies>
+  	<dependency>
+  		<groupId>it.losko.hotel</groupId>
+  		<artifactId>hotel-model</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
