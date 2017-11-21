@@ -40,3 +40,4 @@ Game over! Players ranking:
 -TODO: Learn to merge with eGIT
 -FIXED: Learn to merge with TortoiseGIT
 -TODO: Learn to merge with GIT
+-TODO: Use MavenSS
