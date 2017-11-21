@@ -34,4 +34,4 @@ Game over! Players ranking:
 #01: Comp3, with a total patrimony of 109375.0
 #02: Comp1, with a total patrimony of 0.0
 #03: losko, with a total patrimony of 0.0
-#04: Comp2, with a total patrimony of 0.0
+- TODO: Use Maven
