@@ -38,4 +38,5 @@ Game over! Players ranking:
 -TODO: Give more importance to such kind of things!
 -TODO: Get enough time to live!
 -TODO: Learn to merge with eGIT
+-FIXED: Learn to merge with TortoiseGIT
 -TODO: Learn to merge with GIT
